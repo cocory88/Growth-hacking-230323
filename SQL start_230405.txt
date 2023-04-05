@@ -1,0 +1,10 @@
+# Growth-hacking-230323
+
+
+SQL tutorial  https://www.w3schools.com/sql/
+
+データアナリストになり、実際に仕事を得る最速の方法 https://www.youtube.com/watch?v=AYWLZ1lES6g
+summary of above,
+ SQL, Python, Excel, Power BI
+ 
+ community - https://stackoverflow.com/
