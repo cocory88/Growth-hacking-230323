@@ -1,0 +1,4 @@
+☑SQL Order By
+
+
+practiced at https://www.w3schools.com/sql/exercise.asp?filename=exercise_select3
