@@ -1,0 +1,14 @@
+☑SQL Order By - Exercise 2, 3
+
+Exercise 2. 
+DESC : Sort the result reversed alphabetically by the column name, 'City'
+EX. ORDER BY City DESC
+
+Exercise 3.
+Select all records from the Customers table, sort the result alphabetically, first by the column Country, then, by the column City.
+SELECT * FROM Customers
+ORDER BY Country,City;
+※',' is needed following column name, Country
+
+
+practiced at https://www.w3schools.com/sql/exercise.asp?filename=exercise_orderby2
