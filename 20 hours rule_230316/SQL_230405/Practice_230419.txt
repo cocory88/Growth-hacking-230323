@@ -1,0 +1,21 @@
+ ☑SQL NULL - Exercise 1, 2
+
+Exercise 1. Select all records from the Customers where the PostalCode column is empty.
+SELECT * FROM Customers
+WHERE PostalCode ＿＿ NULL;
+
+__ = IS
+
+
+Exercise2:
+Select all records from the Customers where the PostalCode column is NOT empty.
+
+
+SELECT * FROM Customers
+WHERE WHERE 
+PostalCode IS NOT NULL ;
+
+practiced at https://www.w3schools.com/sql/exercise.asp?filename=exercise_null1
+
+Q. What is a NULL Value? A. A field with a NULL value is a field with no value.
+Ref from tutorial https://www.w3schools.com/sql/sql_null_values.asp
