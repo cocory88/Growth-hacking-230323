@@ -1,0 +1,36 @@
+# Growth-hacking-230323
+# SQL Start 230405
+
+The UPDATE statement is used to modify the existing records in a table.
+
+UPDATE Syntax
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+
+Exercise:
+Update the City column of all records in the Customers table.
+
+
+Exercise:
+Set the value of the City columns to 'Oslo', but only the ones where the Country column has the value "Norway".
+
+UPDATE
+ Customers
+SET
+ City = 'Oslo'
+WHERE
+ Country = 'Norway';
+
+
+Exercise:
+Update the City value and the Country value.
+
+UPDATE
+ Customers
+SET
+ City = 'Oslo',  ※','
+Country
+ = 'Norway'
+WHERE CustomerID = 32;
