@@ -1,0 +1,32 @@
+The SQL DELETE Statement
+The DELETE statement is used to delete existing records in a table.
+
+DELETE Syntax
+DELETE FROM table_name WHERE condition;
+
+
+Exercise:
+Delete all the records from the Customers table where the Country value is 'Norway'.
+
+CORRECT!
+DELETE FROM   ※ 'FROM'
+ Customers
+WHERE
+ Country = 'Norway';
+
+NOT CORRECT!
+DELETE DATA
+ Customers
+WHERE
+ Country = 'Norway';
+ 
+ 
+ Exercise:
+Delete all the records from the Customers table.
+
+CORRECT!
+DELETE FROM
+ Customers;
+ 
+ EXERCISED AT https://www.w3schools.com/sql/exercise.asp?filename=exercise_delete1
+ REF. https://www.w3schools.com/sql/sql_delete.asp
