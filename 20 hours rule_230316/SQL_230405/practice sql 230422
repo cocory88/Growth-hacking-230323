@@ -1,7 +1,34 @@
+Exercise:
+Use the MIN function to select the record with the smallest value of the Price column.
 
 
-Exercise 
+SELECT 
+MIN(Price)
 
+FROM Products;
+
+Exercise:
+Use the correct function to return the number of records that have the Price value set to 18.
+
+
+SELECT 
+COUNT
+(*)
+FROM Products
+WHERE
+ Price = 18;
+
+
+Exercise:
+Use an SQL function to calculate the average price of all products.
+
+
+SELECT 
+AVG(Price)
+
+FROM Products;
 
 
 Ref. 
+https://www.w3schools.com/sql/sql_count_avg_sum.asp
+https://www.w3schools.com/sql/exercise.asp?filename=exercise_functions1
