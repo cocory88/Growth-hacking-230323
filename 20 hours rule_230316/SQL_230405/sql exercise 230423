@@ -1,0 +1,47 @@
+SQL LIKE
+
+Exercise:
+Select all records where the value of the City column starts with the letter "a".
+
+SELECT * FROM Customers
+WHERE City LIKE 'a%';
+
+Exercise:
+Select all records where the value of the City column ends with the letter "a".
+
+SELECT * FROM Customers
+WHERE City LIKE '%a';
+
+Exercise:
+Select all records where the value of the City column contains the letter "a".
+
+SELECT * FROM Customers
+WHERE City LIKE '%a%';
+
+Exercise:
+Select all records where the value of the City column starts with letter "a" and ends with the letter "b".
+
+SELECT * FROM Customers
+WHERE City LIKE 'a%b';
+
+Exercise:
+Select all records where the value of the City column does NOT start with the letter "a".
+
+SELECT * FROM Customers
+WHERE City NOT LIKE 'a%';
+
+※Exercise:
+Select all records where the second letter of the City is an "a".
+
+SELECT * FROM Customers
+WHERE City LIKE '%a%';   -> '_a%'
+
+
+
+Review_Exercise_COUNT-WHERE SYNTAX
+SELECT COUNT(*)
+FROM
+WHERE
+
+REF.
+https://www.w3schools.com/sql/exercise.asp?filename=exercise_like1
