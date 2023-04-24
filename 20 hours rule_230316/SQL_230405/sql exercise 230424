@@ -1,0 +1,47 @@
+sql wildcards Characters
+A wildcard character is used to substitute one or more characters in a string.
+
+Wildcard characters are used with the LIKE operator. The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+
+
+Exercise: 
+Select all records where the second letter of the City is an "a".
+
+
+SELECT * FROM Customers
+WHERE City LIKE '_a%'; # CORRECT
+
+
+Exercise: Using the [charlist] Wildcard
+Select all records where the first letter of the City is an "a" or a "c" or an "s".
+
+SELECT * FROM Customers
+WHERE City LIKE '[acs]%'; # CORRECT  
+
+※　NOT CORRECT
+'a/c/s%';
+'[a/c/s]%';
+
+
+Exercise:
+Select all records where the first letter of the City starts with anything from an "a" to an "f".
+
+
+SELECT * FROM Customers
+WHERE City LIKE '[a-f]%';
+
+※　NOT CORRECT
+LIKE '[af%]%';
+LIKE '[af]';
+LIKE '[a,f]';
+
+
+Exercise: # CORRECT  
+Select all records where the first letter of the City is NOT an "a" or a "c" or an "f".
+
+SELECT * FROM Customers
+WHERE City LIKE '[^acf]%';
+
+REF.
+EXERCISE FROM https://www.w3schools.com/sql/exercise.asp?filename=exercise_wildcards1
+TUTORIAL AT https://www.w3schools.com/sql/sql_wildcards.asp
