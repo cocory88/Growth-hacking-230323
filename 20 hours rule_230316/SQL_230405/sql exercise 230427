@@ -1,0 +1,30 @@
+SQL Aliases
+SQL aliases are used to give a table, or a column in a table, a temporary name.
+
+# Alias Column Syntax
+SELECT column_name AS alias_name
+FROM table_name;
+
+# Alias Table Syntax
+SELECT column_name(s)
+FROM table_name AS alias_name;
+
+
+Exercise:
+When displaying the Customers table, make an ALIAS of the PostalCode column, the column should be called Pno instead.
+
+SELECT CustomerName,
+Address,
+PostalCode 
+FROM Customers AS Pno;
+
+
+Exercise:
+When displaying the Customers table, refer to the table as Consumers instead of Customers.
+
+SELECT *
+FROM Customers AS Consumers;
+
+REF.
+https://www.w3schools.com/sql/exercise.asp?filename=exercise_alias2
+https://www.w3schools.com/sql/sql_alias.asp
