@@ -1,0 +1,58 @@
+SQL JOIN
+A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+
+Different Types of SQL JOINs
+Here are the different types of the JOINs in SQL:
+
+(INNER) JOIN: Returns records that have matching values in both tables
+LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+
+
+INNER JOIN  
+LEFT JOIN  
+RIGHT JOIN  
+FULL OUTER JOIN
+
+
+Exercise:
+Insert the missing parts in the JOIN clause to join the two tables Orders and Customers, using the CustomerID field in both tables as the relationship between the two tables.
+
+
+SELECT *
+FROM Orders
+LEFT JOIN Customers
+ON Orders.CustomerID=Customers.CustomerID;
+
+
+Exercise:
+Choose the correct JOIN clause to select all records from the two tables where there is a match in both tables.
+
+SELECT *
+FROM Orders
+INNER JOIN Customers
+ON Orders.CustomerID=Customers.CustomerID; # Correct
+
+
+Exercise:
+Choose the correct JOIN clause to select all the records from the Customers table plus all the matches in the Orders table.
+
+SELECT *
+FROM Orders
+RIGHT JOIN Customers
+ON Orders.CustomerID=Customers.CustomerID; # Correct. Incorrect EX:LEFT, INNER, FULL OUTER
+
+
+Exercise:
+Insert the missing parts in the JOIN clause to join the two tables Orders and Customers, using the CustomerID field in both tables as the relationship between the two tables.
+
+SELECT *
+FROM Orders
+LEFT JOIN Customers
+ON Orders.CustomerID=Customers.CustomerID; # Correct
+
+
+REF.
+EXERCISE https://www.w3schools.com/sql/exercise.asp?filename=exercise_join1
+TUTORIAL https://www.w3schools.com/sql/sql_join.asp
