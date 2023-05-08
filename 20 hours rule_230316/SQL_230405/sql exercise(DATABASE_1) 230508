@@ -1,0 +1,60 @@
+The SQL CREATE DATABASE Statement
+The CREATE DATABASE statement is used to create a new SQL database.
+
+Syntax
+CREATE DATABASE databasename;
+
+
+
+Exercise:
+Write the correct SQL statement to create a new database called testDB.
+
+
+CREATE DATABASE testDB
+;
+
+
+
+Exercise:
+Write the correct SQL statement to delete a database named testDB.
+
+
+DROP DATABASE testDB
+;
+
+
+Exercise:
+Write the correct SQL statement to create a new table called Persons.
+
+
+CREATE TABLE Persons
+ (
+  PersonID int,
+  LastName varchar(255),
+  FirstName varchar(255),
+  Address varchar(255),
+  City varchar(255) 
+);
+
+
+
+Exercise:
+Write the correct SQL statement to delete a table called Persons.
+
+
+DROP TABLE
+ Persons;
+ 
+ 
+ 
+ ※
+ Exercise:
+Use the TRUNCATE statement to delete all data inside a table.
+
+TRUNCATE TABLE Persons;
+
+# ㄴTRUNCATE TABLE
+The TRUNCATE TABLE command deletes the data inside a table, but not the table itself.
+The following SQL truncates the table "Categories": 
+Example
+TRUNCATE TABLE Categories;
