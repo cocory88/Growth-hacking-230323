@@ -1,0 +1,35 @@
+50min from 14 to 1450
+
+
+click event 
+
+１．★not link
+GTM+GA4
+ Preview > Connect > ★Variable
+ Trigger - all factor, Partial
+ Tag - btn(:button)
+ Preview + GA4 DebugView
+ Submit
+
+Ref.
+https://www.youtube.com/watch?v=MHqD550m5yw
+
+
+
+２．link(外部リンクもOK)
+ GTM>click factors all ON>trigger;what condition - ex.GA4_ifbuffering_trigger + only link + add URL > event tag;customed event - event name ex.ifbuffering_click_link + 매개변수 ex.click.url > preview
+> GA4 構成> debugView check after ５~20sec 
+
+
+Ref.
+6편 : 이벤트 생성 / 링크 클릭 이벤트 | 구글애널리틱스4 (GA4) 실속 강의　https://www.youtube.com/watch?v=ssgsICZEt8g
+
+
+Ref.
+Google Analytics recommend event name
+
+
+TIp
+ event can be changed to a conversion
+
+
